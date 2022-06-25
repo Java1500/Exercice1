@@ -33,7 +33,7 @@ public class TestVin {
 		 r.setPrix(23.00);
 		 r.setOrigine("Italie");
 		 s.setNom("Vino verde");
-		 /*s.setType();*/
+		 s.setType(Vin.getBLANC());
 		 s.setOrigine(b.getOrigine());
 		 Vin n = new Vin (("L'érablière"),("Québec"),(15.00));
 
@@ -52,6 +52,5 @@ public class TestVin {
 					
 
     }
-
 
 }

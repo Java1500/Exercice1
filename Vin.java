@@ -80,6 +80,8 @@ public class Vin {
     }
 
     public void setPrix(double prix) {
+        totalPrix -= this.prix;
+        totalPrix += prix;
         this.prix = prix;
     }
     
@@ -104,5 +106,7 @@ public class Vin {
 
                 
     }
+
 }
+
 
