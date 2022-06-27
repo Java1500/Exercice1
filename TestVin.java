@@ -1,10 +1,9 @@
-package Exercice1;
 import javax.swing.*;
 import javax.swing.JOptionPane;
 
 public class TestVin {
 
-    public static void main(String args[]) {
+    public static void main(String args[])  throws Exception  {
 
 		
         
@@ -49,8 +48,9 @@ public class TestVin {
 			JOptionPane.showMessageDialog(null, affichage ,
 					"Résultats des vins", JOptionPane.PLAIN_MESSAGE);
 
-					
-
+	
+		
+			System.exit(0);
     }
 
 }

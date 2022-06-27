@@ -1,4 +1,3 @@
-package Exercice1;
 public class Vin {
 
 	public static final  int BLANC = 1;
@@ -32,10 +31,6 @@ public class Vin {
         nbVin++;
         totalPrix += prix;
     }
-    
-    public Vin() {
-    }
-
     
     public static int getBLANC() {
         return BLANC;
